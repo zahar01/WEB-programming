@@ -6,5 +6,5 @@
 
 <code>![layout](/img/layout.png "Макет сайта")</code>
 
-Снизу ссылка на сайт-визитку ↓
-[site](https://zahar01.github.io/WEB-programming/#snippet_code)  
+Снизу ссылка на сайт-визитку ↓  
+[*ТЫГ-ТЫГ*](https://zahar01.github.io/WEB-programming/#snippet_code)  
