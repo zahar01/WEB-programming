@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="keywords" content="сайт-визитка, сайт визитка, Захар, Разработчик, купить Макаревич Роман" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Zakhar's site</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a class="header_logo logo" href="#">Сайт Тимофеева Захара</a>
+    </header>
+
+    <main>
+        <div class="person">
+            <div class="container person_container">
+                <div class="person_about">
+                    <h1 class="person_title">Тимофеев Захар</h1>
+                    <p class="person_discription">
+                        Привет, я прохожу курс Web-программирования.
+                    </p>
+                </div>
+
+                <div class="person_box">
+                    <img src="img/me.jpg" alt="me">
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <nav class="navigation" >
+            <a class="nav_el" href="#about_me">О мне</a>
+            <a class="nav_el" href="#plus_minus">+ / -</a> 
+            <a class="nav_el" href="#ascii_graph">ASCII</a> 
+            <a class="nav_el" href="#snippet_code">Сниппет кода</a>
+            <a class="nav_el" href="#formule">Формула успеха</a>
+        </nav>
+
+        <div class="examples" id="about_me">
+            <article class="article_example">
+                <header>
+                    <h2 class="art_about">О себе</h2>
+                </header>
+                <p>Учусь на третьем курсе у прекрасного преподавателя - <strong>Макаревича Романа Дмитриевича</strong>.</p>
+                <p> Данную страничку я сделал для первой лабораторной работы, но изначально выбрал и буду в дальнейшем делать интернет-магазин.</p>
+                <aside>
+                    <p>| А эту страничку сделал, чтобы проиллюстрировать все задания лабораторной</p>
+                </aside>
+            </article>
+            
+            <h3 class="lists_head" id="plus_minus">Мои плюсы и минусы</h3>
+            <div class="lists_example">
+                <p class="name_of_list">Плюсы</p>
+                <ul class="lists_item">
+                    <li class="list_text">Хихи смешной, <i>преколист</i></li>
+                    <li class="list_text">Усидчивый</li>
+                    <li class="list_text">Харaшо cнаю Руский</li>
+                </ul>
+
+                <p class="name_of_list">Минусы</p>
+                <ol class="lists_item">
+                    <li class="list_text">Могу заигрулиться в компуктерные игрульки</li>
+                    <li class="list_text">Очень сложно разбудить</li>
+                    <li class="list_text">Всегда хочу спать</li>
+                </ol>
+            </div>
+
+
+            <div class="ascii_example" id="ascii_graph">
+                <h4 class="ascii_text">ASCII графика</h4>
+                <pre>
+                     _   .-')      ('-.    .-. .-')    ('-.     _  .-')     ('-.        (`-.                      ('-. .-.       _  .-')               _   .-')      ('-.         .-') _        .-') _    ('-. .-.   ('-.        .-. .-')    ('-.    .-')    .-') _    
+                    ( '.( OO )_   ( OO ).-.\  ( OO )  ( OO ).-.( \( -O )  _(  OO)     _(OO  )_                   ( OO )  /      ( \( -O )             ( '.( OO )_   ( OO ).-.    ( OO ) )      (  OO) )  ( OO )  / _(  OO)       \  ( OO ) _(  OO)  ( OO ). (  OO) )   
+                    ,--.   ,--.) / . --. /,--. ,--.  / . --. / ,------. (,------.,--(_/   ,. \ ,-.-')   .-----. ,--. ,--.       ,------.  .-'),-----. ,--.   ,--.) / . --. /,--./ ,--,'       /     '._ ,--. ,--.(,------.       ;-----.\(,------.(_)---\_)/     '._  
+                    |   `.'   |  | \-.  \ |  .'   /  | \-.  \  |   /`. ' |  .---'\   \   /(__/ |  |OO) '  .--./ |  | |  |       |   /`. '( OO'  .-.  '|   `.'   |  | \-.  \ |   \ |  |\       |'--...__)|  | |  | |  .---'       | .-.  | |  .---'/    _ | |'--...__) 
+                    |         |.-'-'  |  ||      /,.-'-'  |  | |  /  | | |  |     \   \ /   /  |  |  \ |  |('-. |   .|  |       |  /  | |/   |  | |  ||         |.-'-'  |  ||    \|  | )      '--.  .--'|   .|  | |  |           | '-' /_)|  |    \  :` `. '--.  .--' 
+                    |  |'.'|  | \| |_.'  ||     ' _)\| |_.'  | |  |_.' |(|  '--.   \   '   /,  |  |(_//_) |OO  )|       |       |  |_.' |\_) |  |\|  ||  |'.'|  | \| |_.'  ||  .     |/          |  |   |       |(|  '--.        | .-. `.(|  '--.  '..`''.)   |  |    
+                    |  |   |  |  |  .-.  ||  .   \   |  .-.  | |  .  '.' |  .--'    \     /__),|  |_.'||  |`-'| |  .-.  |       |  .  '.'  \ |  | |  ||  |   |  |  |  .-.  ||  |\    |           |  |   |  .-.  | |  .--'        | |  \  ||  .--' .-._)   \   |  |    
+                    |  |   |  |  |  | |  ||  |\   \  |  | |  | |  |\  \  |  `---.    \   /   (_|  |  (_'  '--'\ |  | |  |       |  |\  \    `'  '-'  '|  |   |  |  |  | |  ||  | \   |           |  |   |  | |  | |  `---.       | '--'  /|  `---.\       /   |  |    
+                    `--'   `--'  `--' `--'`--' '--'  `--' `--' `--' '--' `------'     `-'      `--'     `-----' `--' `--'       `--' '--'     `-----' `--'   `--'  `--' `--'`--'  `--'           `--'   `--' `--' `------'       `------' `------' `-----'    `--'    </pre>
+            </div>
+
+            <div class="snippet_example" id="snippet_code">
+                <h5 class="snippet_text">Сниппет кода</h5>
+                <div class="php" style="font-family:monospace;color: #006; padding: 15px; border: 1px solid #d0d0d0; background-color: #f0f0f0;"><ol><li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;"><span style="color: #339933;">&lt;</span>section<span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; <span style="color: #339933;">&lt;</span>div <span style="color: #000000; font-weight: bold;">class</span><span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;person_links&quot;</span><span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #339933;">&lt;</span>a <span style="color: #000000; font-weight: bold;">class</span><span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;person_link&quot;</span> href<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;https://github.com/zahar01&quot;</span> target<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;_blank&quot;</span><span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #339933;">&lt;</span>i <span style="color: #000000; font-weight: bold;">class</span><span style="color: #339933;">=</span><span style="color: #0000ff;">'bx bxl-github'</span><span style="color: #339933;">&gt;&lt;/</span>i<span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #339933;">&lt;/</span>a<span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #339933;">&lt;</span>a <span style="color: #000000; font-weight: bold;">class</span><span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;person_link&quot;</span> href<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;https://vk.com/zakhar0401&quot;</span> target<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;_blank&quot;</span><span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #339933;">&lt;</span>i <span style="color: #000000; font-weight: bold;">class</span><span style="color: #339933;">=</span><span style="color: #0000ff;">'bx bxl-vk'</span><span style="color: #339933;">&gt;&lt;/</span>i<span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #339933;">&lt;/</span>a<span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #339933;">&lt;</span>a <span style="color: #000000; font-weight: bold;">class</span><span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;person_link&quot;</span> href<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;https://t.me/Zahar01&quot;</span> target<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;_blank&quot;</span><span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #339933;">&lt;</span>i <span style="color: #000000; font-weight: bold;">class</span><span style="color: #339933;">=</span><span style="color: #0000ff;">'bx bxl-telegram'</span><span style="color: #339933;">&gt;&lt;/</span>i<span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #339933;">&lt;/</span>a<span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;">&nbsp; &nbsp; <span style="color: #339933;">&lt;/</span>div<span style="color: #339933;">&gt;</span></div></li>
+                    <li style="font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;"><span style="color: #339933;">&lt;/</span>section<span style="color: #339933;">&gt;</span></div></li>
+                    </ol></div>
+            </div>
+
+            <div class="formule_example" id="formule">
+                <h6 class="formule_text">Формула успеха</h6>
+                <div class="formule_item">
+                    <p><i>М <sup><small>ечта</small></sup> * Ж <sup><small>елание</small></sup> * Ц <sup><small>ель</small></sup> * П <sup><small>лан</small></sup> * В <sup><small>ера</small></sup> * Д <sup><small>ействие</small></sup> = У <sub><small>спех</small></sub></i></p>
+                </div>
+                <p><em>*формула взята из гугл картинок</em></p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p class="footer_text">Здесь футер</p>
+        <section class="links">
+            <div class="person_links">
+                <a class="person_link" href="https://github.com/zahar01" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a class="person_link" href="https://vk.com/zakhar0401" target="_blank">
+                    <i class='bx bxl-vk'></i>
+                </a>
+                <a class="person_link" href="https://t.me/Zahar01" target="_blank">
+                    <i class='bx bxl-telegram'></i>
+                </a>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./script/main.js"></script>
+</body>
+
+</html>
